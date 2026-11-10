@@ -601,12 +601,12 @@ function App() {
       </main>
 
       <footer>
-        <a className="brand" href="#">
-          <span className="brand-icon"><PawPrint size={20} /></span>
-          paw<span className="brand-light">care</span>
-        </a>
-        <span>Made with care for every paw. © 2026 Pawcare.</span>
-      </footer>
+  <a className="brand" href="#">
+    <span className="brand-icon"><PawPrint size={20} /></span>
+    <span>paw<span className="brand-light">care</span></span>
+  </a>
+  <span>Made with care for every paw. © 2026 Pawcare.</span>
+</footer>
 
       {selectedClinic && (
         <div className="modal-overlay" onClick={() => setSelectedClinic(null)}>
